@@ -1,9 +1,10 @@
-import React from 'react
+import { CustumFilter } from "@/types"
+import Image from "next/image"
 
-const CustomeFilter = () => {
+const CustomeFilter = ( {title}: CustumFilter ) => {
   return (
     <div>
-      
+      {title}
     </div>
   )
 }
